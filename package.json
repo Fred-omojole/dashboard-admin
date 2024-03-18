@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
     "@craco/craco": "^7.1.0",
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
@@ -16,10 +17,9 @@
     "@syncfusion/ej2-react-schedule": "^19.4.50",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.12.0",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
