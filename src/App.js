@@ -23,9 +23,12 @@ import {
   Editor,
 } from "./pages";
 import "./App.css";
+import { useStateContext } from "./contexts/ContextProvider";
 
 const App = () => {
-  const activeMenu = true;
+  //  calling the activemenu as a
+  const { activeMenu } = useStateContext();
+
   return (
     <div className="">
       <BrowserRouter>
@@ -46,7 +49,7 @@ const App = () => {
               <Sidebar />
             </div>
           ) : (
-            <div className="w-0">
+            <div className="w-0 ">
               <Sidebar />
             </div>
           )}
